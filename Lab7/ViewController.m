@@ -46,6 +46,11 @@
     [self updatecalculationView];
 }
 
+- (IBAction)sin:(id)sender {
+    [_Cbrain sinCalculationString];
+    [self updatecalculationView];
+}
+
 - (IBAction)tangent:(id)sender {
     [_Cbrain tangentCalculationString];
     [self updatecalculationView];
@@ -56,5 +61,6 @@
         [self updatecalculationView];
     };
 }
+
 
 @end
